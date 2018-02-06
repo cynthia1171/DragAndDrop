@@ -1,0 +1,42 @@
+a{
+  text-decoration: none;
+}
+
+#logo{
+  width: 100%;
+  margin-top: 25%;
+}
+
+form input{
+  display: block;
+  width: 100%;
+}
+
+.div1{
+  border: 1px solid #000;
+  height: 100px;
+  width: 100%;
+}
+
+#contenedorImagenes{
+  width: 100%;
+  height: 600px;
+  border: 1px solid #000;
+  margin-top: 20px;
+}
+
+#contenedorImagenes img{
+  width: 45%;
+  height: 19pc;
+  cursor: pointer;
+}
+
+#fotos{
+  margin-left: 10%;
+}
+
+#fotos img{
+  width: 45%;
+  height: 19pc;
+  cursor: pointer;
+}
