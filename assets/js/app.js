@@ -11,7 +11,7 @@ function drag(ev) {
 
 function drop(ev) {
   var numeroDeImagenes = $('#contenedorImagenes img').length;
-  if(numeroDeImagenes <= 2 ){
+  if(numeroDeImagenes <= 3 ){
     console.log(numeroDeImagenes);
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
