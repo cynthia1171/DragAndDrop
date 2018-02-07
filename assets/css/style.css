@@ -1,15 +1,45 @@
+body{
+  box-sizing: border-box;
+  text-align: center;
+}
+
 a{
   text-decoration: none;
+  color: white;
+
+}
+
+#logIn{
+  height: 100vh;
+  background: linear-gradient(to bottom left, #5CA86E , #EA8484);
+  color: white;
+}
+
+#inicio{
+  background-color: transparent;
+  border: 1px solid white;
+  font-weight: bolder;
 }
 
 #logo{
-  width: 100%;
-  margin-top: 25%;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+#user, #key {
+background-color: rgba(255,255,255, 0.27);
 }
 
 form input{
   display: block;
   width: 100%;
+  padding: 0.7em;
+  border-radius: 0.3em;
+  border: none;
+  margin-bottom: 0.8em;
+  
 }
 
 .div1{
