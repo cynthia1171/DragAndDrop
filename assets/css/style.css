@@ -1,6 +1,12 @@
 body{
   box-sizing: border-box;
   text-align: center;
+  background-color: #333333;
+}
+
+header{
+  height: 5em;
+  background-color: #000;
 }
 
 a{
@@ -39,34 +45,45 @@ form input{
   border-radius: 0.3em;
   border: none;
   margin-bottom: 0.8em;
-  
 }
 
-.div1{
-  border: 1px solid #000;
-  height: 100px;
+.col-xs-3 img{
+  width: 12pc;
+  height:8pc;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.col-xs-3 , .col-sm-3{
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#one{
+  background-color: #D4D4D4;
+  height: 150px;
+  border-bottom: 3.5px solid white;
+  padding: 0;
+}
+
+#two{
+  background-color: #D4D4D4;
+  height: 150px;
+  border-top: 3.5px solid white;
+  padding: 0;
+}
+
+#three{
+  background-color: #D4D4D4;
+  height: 300px;
+  border-left: 7px solid white;
+  padding: 0;
+}
+
+#one img, #two img, #three img{
+  height: 100%;
   width: 100%;
 }
-
-#contenedorImagenes{
-  width: 100%;
-  height: 600px;
-  border: 1px solid #000;
-  margin-top: 20px;
-}
-
-#contenedorImagenes img{
-  width: 45%;
-  height: 19pc;
-  cursor: pointer;
-}
-
-#fotos{
-  margin-left: 10%;
-}
-
-#fotos img{
-  width: 45%;
-  height: 19pc;
-  cursor: pointer;
+#booth p{
+  color: #8174E3;
 }

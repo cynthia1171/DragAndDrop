@@ -2,33 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Página principal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script type="text/javascript">
-    
 
   </script>
 </head>
 <body>
-  <div class="container-fluid">
-    <div id="contenedorImagenes" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
-    <div id="booth">
-      <p><i class="fab fa-instagram"></i> PHOTO BOOTH</p>
-    </div>
-    <div class="container" id="fotos">
-      <img id="img1" src="assets/img/imagen1.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-      <img id="img2" src="assets/img/imagen2.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-      <img id="img3" src="assets/img/imagen3.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-      <img id="img4" src="assets/img/imagen4.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-      <img id="img5" src="assets/img/imagen5.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-      <img id="img6" src="assets/img/imagen6.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-      <img id="img7" src="assets/img/imagen7.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-      <img id="img8" src="assets/img/Kefla.png" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
-    </div>
-  </div>
+  <header>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+      <img src="assets/img/white_instagram_text_logo1.png" width="150" height="50" alt="">
+      </a>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <!--<div id="contenedorImagenes" ondragover="allowDrop(event)" ondrop="drop(event)"> -->
+      <div class="row">
+        <div class="col-xs-6 col-sm-6">
+          <div class="row">
+            <div id="one" class="col-xs-12 col-sm-12" ondragover="allowDrop(event)" ondrop="drop(event)">
+              
+            </div>
+          </div>
+          <div class="row">
+            <div id="two" class="col-xs-12 col-sm-12" ondragover="allowDrop(event)" ondrop="drop(event)">
+              
+            </div>
+          </div>
+        </div>
+        <div id="three" class="col-xs-6 col-sm-6" ondragover="allowDrop(event)" ondrop="drop(event)">
 
+        </div>
+      </div>
+      <!-- </div> -->
+      <div id="booth">
+        <p><i class="fab fa-instagram"></i> PHOTO BOOTH</p>
+      </div>
+      <div class="container-fluid" id="fotos">
+        <div class="row">
+          <div class="col-xs-3 col-sm-3">
+            <img id="img1" src="assets/img/imagen1.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img2" src="assets/img/imagen2.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img3" src="assets/img/imagen3.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img4" src="assets/img/imagen4.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 col-sm-3">
+            <img id="img5" src="assets/img/imagen5.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img6" src="assets/img/imagen6.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img7" src="assets/img/imagen7.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img8" src="assets/img/Kefla.png" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 col-sm-3">
+            <img id="img9" src="assets/img/img9.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img10" src="assets/img/img10.png" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img11" src="assets/img/img11.jpg" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+          <div class="col-xs-3 col-sm-3">
+            <img id="img12" src="assets/img/img12.png" class="img-responsive" alt="" draggable="true" ondragstart="drag(event)">
+          </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </main>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="assets/js/app.js" type="text/javascript"></script>
 </body>
 </html>
