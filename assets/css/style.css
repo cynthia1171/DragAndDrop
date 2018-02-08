@@ -23,8 +23,14 @@ a{
 
 #inicio{
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid white!important;
   font-weight: bolder;
+  display: block;
+  width: 100%;
+  padding: 0.7em;
+  border-radius: 0.3em;
+  border: none;
+  margin-bottom: 0.8em;
 }
 
 #logo{

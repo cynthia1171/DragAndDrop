@@ -10,7 +10,6 @@ function drag(ev) {
 function drop(ev) {
   var numeroDeImagenes = $('#contenedorImagenes img').length;
   if(numeroDeImagenes <= 3 ){
-    console.log(numeroDeImagenes);
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
@@ -20,7 +19,13 @@ function drop(ev) {
 }
 
 const iniciar = () => {
-  window.location = 'principal.html';
-  return false;
+  var user = document.getElementById('user').value;
+  var password = document.getElementById('key').value;
+
+  if (user === '' || (password == "") || (password == 123456) || (password.length<6)) {
+    alert('Usuario ó contraseña incorrectos');
+  } else {
+    window.location.href='principal.html';
+  }
 };
 
